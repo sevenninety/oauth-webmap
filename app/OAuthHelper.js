@@ -166,7 +166,6 @@ define(["dojo/_base/lang", "dojo/_base/json", "dojo/_base/url", "dojo/cookie", "
 			var signInMethod = idManager.signIn, helper = this;
 
 			idManager.signIn = function(resUrl, serverInfo, options) {
-
 				return (serverInfo.server.indexOf(".arcgis.com") !== -1) ?
 				// OAuth flow
 				helper.signIn() :

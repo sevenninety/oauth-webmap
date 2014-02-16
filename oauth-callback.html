@@ -18,13 +18,11 @@
   <script>
     function initialize() {
       //console.log("oauth callback");
-      
       window.opener.OAuthHelper.checkOAuthResponse(window.location.href);
       window.close();
     }
   </script>
 </head>
-
 <body onload="initialize();">
   <!--OAuth Popup Callback-->
 </body>

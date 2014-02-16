@@ -27,7 +27,6 @@ define([
 				popup : false
 			});
 
-
 			if (OAuthHelper.isSignedIn()) {
 				displayWebMap();
 			} else {
